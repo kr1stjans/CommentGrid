@@ -4,13 +4,16 @@
   "description": "A Vue.js project",
   "author": "kr1stjans <kristjansesek@gmail.com>",
   "private": true,
+  "homepage": "git@github.com:kr1stjans/CommentGrid",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "vue": "^2.5.2",
+    "vue-gh-pages": "^1.7.5",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

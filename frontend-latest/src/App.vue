@@ -4,7 +4,6 @@
       <div class="container">
 
         <div id="logo" class="pull-left">
-          <!--<a href="#hero"><img src="./assets/logo.png" alt="" title=""/></a>-->
           <h1><a href="/">Ime podjetja</a></h1>
         </div>
 
